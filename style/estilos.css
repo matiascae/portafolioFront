@@ -1,0 +1,155 @@
+.mat-card{
+    margin: 15px 40px;
+    padding: 0px;
+    box-shadow: 1px 2px 11px 5px #ccc;
+}
+
+.editar-png{
+    width: 23px;
+    background: none;
+    border: none;
+    margin-top: -23px;
+    display: block;
+}
+.editar-png-exp{
+    width: 30px;
+    background: none;
+    border: none;
+    right: 50px;
+}
+.edit-borrar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+    width: 80px;
+}
+#editar_acerca{
+    background: none;
+    border: none;
+    float: right;
+
+}
+.box-acerca-de{
+    display: flex;
+}
+.box-acerca-de p {
+    width: 100%;
+}
+
+
+
+#first-card{
+    padding: 0;
+    border-radius: 32px 32px 32px 32px;
+}
+
+div #profile-background{
+    display: flex;
+}
+
+#profile-background img{
+    padding: 0px;
+    width: 100%;
+    max-height:500px ;
+    border-radius: 32px 32px 0 0;
+}
+.profile-img{
+    border-radius: 50%;
+    width: 152px;
+    height: 152px;
+    margin-top: -110px;
+    z-index: 1;
+}
+
+div #info-actions{
+    display: flex;
+}
+#info-details{
+    margin-top: -250px;
+    display: flex;
+}
+
+#info-details img{
+    margin-top: 150px;
+    width: 100px;
+    border-radius: 30%;
+    margin-right: 15px;
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+
+}
+#info-details img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0%);
+    
+}
+#info-actions button{
+    margin: 10px 10px 10px 0px;
+}
+
+/*second card*/
+#second-card{
+    padding: 0;
+}
+#second-card h5{
+    padding: 10px 25px 10px 25px;
+}
+#second-card p{
+    padding-left: 50px;
+}
+#editar_acerca{
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.borrar-png{
+width: 35px;
+margin-left: 2px;
+margin-top: 5px;
+}
+button .sumar-png{
+width: 38px;
+background: none;
+margin-top: 5px;
+}
+
+
+
+/*third card*/
+#titulo-experiencia{
+    background: rgb(247, 247, 247);
+    padding-top: 5px;
+    line-height: 60px;
+    text-align: center;
+    padding-bottom: 15px;
+    box-shadow: 0px 5px 5px 0px #ccc;
+}
+.experiencias-img{
+    max-height: 100px;
+    width: 110px;
+    margin-top: 10px;
+}    
+.fecha{
+    font-size: 13px;
+}
+.experiencias{
+    padding: 40px;
+   border-bottom: 0px 0px 0px 0px #ccc;
+   
+}
+.experiencias button{
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+
+    background: none;
+    border: none;
+    margin-top: -140px;
+    margin-right: -40px;
+}
+
+.experiencias button:hover{
+filter: none;
+-webkit-filter: grayscale(0%);
+}
