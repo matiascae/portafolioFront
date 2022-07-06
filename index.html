@@ -8,10 +8,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="script.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
 </head>
 <body>
 <!-- Content -->
+
+        
     <div class="card mat-card" id="first-card">
         <div id="profile-background"><img src="banner.gif" alt=""></div>
         <div id="info" style="padding:16px">
@@ -22,8 +23,8 @@
           </div>
           <div id="info-data">
             <div>
-
-                <h1>Matias Fontenla</h1>
+              
+                <h1>Matias Fontenla</h1> 
                 <div id="info-company">Front-End Dev - Simbel eCommerce</div>
                 <div id="info-contact">
                     <span>Buenos Aires (Argentina)</span>
@@ -37,6 +38,9 @@
                
             </div>
           </div>
+          <div id="info-actions">
+          <a target="_blank" href="https://www.linkedin.com/in/matias-fontenla-a46640181/"> <img src="linkedin.jpg" alt="" id="linkedin"></a> 
+        </div>
           <div id="info-actions">
             <button type="button" class="btn btn-primary">Tengo interes en</button>
             <button type="button" class="btn btn-light">Añadir seccion</button>
@@ -121,45 +125,91 @@
             <!--Educacion-->
             <div class="card mat-card" id="second-card">
               <h5>Educacion</h5>
-              <div class="box-acerca-de">
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magnam possimus repellendus, architecto amet harum quam facere modi quasi omnis vel, molestias illum, sed soluta fuga id quae eligendi dolor?</p>
+              <!--Primer educacion-->
+              <div class="card mb-3" style="max-width: 100%">
+                <div class="card-header">Secundario  <button value="editar" id="editar_educacion"><img class="editar-png" src="editar.png" alt="" style="float: right"></button></div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Instituto Buenos Aires (Florida)</h5>
+                  <p class="card-text">Ciencias Sociales - Completo</p>
+                </div>
+              </div>
+              <div class="card mb-3" style="max-width: 100%">
+                <div class="card-header">GRADUARTE YA <button value="editar" id="editar_educacion"><img class="editar-png" src="editar.png" alt="" style="float: right"></button></div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Programacion Web</h5>
+                  <p class="card-text">Introduccion a HTML,CSS Y JAVASCRIPT</p>
+                </div>
+              </div>
+              <div class="card mb-3" style="max-width: 100%">
+                <div class="card-header">ARGENTINA PROGRAMA<button value="editar" id="editar_educacion"><img class="editar-png" src="editar.png" alt="" style="float: right"></button></div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">SE PROGRAMAR</h5>
+                  <p class="card-text">Primera parte del Argentina Programa, orientado a la logica de la programacion</p>
+                  <a href="">Ver certificado</a>
+                </div>
+              </div>
+              <div class="card mb-3" style="max-width: 100%">
+                <div class="card-header">Argentina Programa <button value="editar" id="editar_educacion"><img class="editar-png" src="editar.png" alt="" style="float: right"></button></div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">YO PROGRAMO</h5>
+                  <p class="card-text">En curso</p>
+                </div>
+              </div>
+              <div class="card mb-3" style="max-width: 100%">
+                <div class="card-header">GRADUARTE YA <button value="editar" id="editar_educacion"><img class="editar-png" src="editar.png" alt="" style="float: right"></button></div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Programacion Web</h5>
+                  <p class="card-text">Introduccion a HTML,CSS Y JAVASCRIPT</p>
+                  <a href="">Ver certificado</a>
+                </div>
               </div>
               <div>
-              <button value="editar" id="editar_acerca"><img class="editar-png" src="editar.png" alt=""></button>
-                </div>
+            
             </div>
-
+            </div>
             <!--skills-->
-            <div class="card mat-card" id="second-card">
+            <div class="card mat-card" id="fourt-card">
               <h5>Skills </h5>
+           
               <div class="box-acerca-de">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magnam possimus repellendus, architecto amet harum quam facere modi quasi omnis vel, molestias illum, sed soluta fuga id quae eligendi dolor?</p>
               </div>
               <div>
               <button value="editar" id="editar_acerca"><img class="editar-png" src="editar.png" alt=""></button>
                 </div>
+                
             </div>
 
             <!--Proyectos-->
             <div class="card mat-card" id="third-card">
-          
               <h5 id="titulo-experiencia">Proyectos</h5>
-              
-              <div class="experiencias">
-              <h3>APV PACIENTES DE VETERINARIA</h3>
-              <p>Proyecto de registro de pacientes y veterinarios, con el fin
-                de asignar citas
-              </p>
-              <p class="fecha"><i><a href="https://earnest-gaufre-28b48f.netlify.app/">Link</a></i></p>
-              
-              
-              <div class="float-end edit-borrar">
-                <button value="editar"><img class="editar-png-exp" src="editar.png" alt=""></button>    
-              <button value="borrar"><img class="borrar-png" src="BORRAR.png" alt=""></button>  
-              <button value="editar" class="float-end editar_acerca_falla"><img class="sumar-png" src="sumar4.jpg" alt=""></button>    
-            </div>
-    <hr>
-            
+              <div class="proyectos-box">
+                
+              <div class="card card-proyectos">
+                <img class="card-img-top" src="APV_d.png" alt="Card image cap">
+                <div class="card-body ">
+                  <h5 class="card-title ">APV Pacientes Veterinaria</h5>
+                  <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://earnest-gaufre-28b48f.netlify.app/" target="_blank" class="btn btn-primary  ">Go somewhere</a>
                 </div>
+              </div>
+              <div class="card card-proyectos" >
+                <img class="card-img-top" src="qr_d.png" alt="Card image cap">
+                <div class="card-body ">
+                  <h5 class="card-title ">GENERADOR DE QR</h5>
+                  <p class="card-text ">Generador de QR consultando a API</p>
+                  <a href="#" class="btn btn-primary  ">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card card-proyectos" >
+                <img class="card-img-top" src="calculadora_d.png" alt="Card image cap">
+                <div class="card-body ">
+                  <h5 class="card-title ">Calculadora</h5>
+                  <p class="card-text ">Calculadora seleccionando mediante mouse</p>
+                  <a href="#" class="btn btn-primary  ">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            
 </body>
 </html>

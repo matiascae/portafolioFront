@@ -42,7 +42,10 @@
     padding: 0;
     border-radius: 32px 32px 32px 32px;
 }
-
+#linkedin{
+    width: 50px;
+    height: 50px;
+}
 div #profile-background{
     display: flex;
 }
@@ -55,8 +58,8 @@ div #profile-background{
 }
 .profile-img{
     border-radius: 50%;
-    width: 152px;
-    height: 152px;
+    width: 160px;
+    height: 200px;
     margin-top: -110px;
     z-index: 1;
 }
@@ -153,3 +156,62 @@ margin-top: 5px;
 filter: none;
 -webkit-filter: grayscale(0%);
 }
+.card-proyectos{
+    margin: 20px;
+    box-shadow: 1px 1px 3px 1px #ccc;
+    min-width: 300px;
+    max-width: 500px;
+    max-height: 1500px;
+}
+.proyectos-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*DARLE ESTILOS A EDUCACION*/
+#editar_educacion {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background: none;
+    border: none;
+}
+#editar_educacion img{
+    margin-top: 1px;
+}
+.card-header{
+    background: rgb(248, 248, 248) !important;
+    height: 50px;
+    text-align: center;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.card-proyectos{
+    max-width: 500px;
+    min-width: 500px;
+}
+.card-proyectos img{
+    object-fit: cover;
+   
+}
+
+@keyframes load{
+    0%{
+      box-shadow: 0 0 #9c5d30 inset;
+    }
+    100%{
+      box-shadow: 0 -70px #422412 inset;
+    }
+  }
+  .loader{
+    transform: perspective(140px) rotateX(-45deg);
+    width: 32px;
+    height: 72px;
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+    animation: load 3s linear infinite;
+    float:right
+  }
