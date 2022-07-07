@@ -106,6 +106,16 @@ div #info-actions{
     margin: 0 auto;
     margin-bottom: 15px;
 }
+#eliminar_acerca{
+    background: none;
+    border: none;
+}
+#edit-acercade{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: block;
+    width: 80%;
+}
 .borrar-png{
 width: 35px;
 margin-left: 2px;
