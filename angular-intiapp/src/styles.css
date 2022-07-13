@@ -1,3 +1,4 @@
+/* You can add global styles to this file, and also import other style files */
 .mat-card{
     margin: 15px 40px;
     padding: 0px;
@@ -20,15 +21,10 @@
 .edit-borrar{
     display: flex;
     justify-content: space-between;
-    margin-top: -70px;
+    margin-top: 0px;
     width: 80px;
 }
-#editar_acerca{
-    background: none;
-    border: none;
-    float: right;
 
-}
 .box-acerca-de{
     display: flex;
 }
@@ -101,11 +97,7 @@ div #info-actions{
 #second-card p{
     padding-left: 50px;
 }
-#editar_acerca{
-    width: 100px;
-    margin: 0 auto;
-    margin-bottom: 15px;
-}
+
 #eliminar_acerca{
     background: none;
     border: none;
@@ -127,44 +119,40 @@ background: none;
 margin-top: 5px;
 }
 
-
-
-/*third card*/
-#titulo-experiencia{
-    background: rgb(247, 247, 247);
-    padding-top: 5px;
-    line-height: 60px;
-    text-align: center;
-    padding-bottom: 15px;
-    box-shadow: 0px 5px 5px 0px #ccc;
+.fa-pen{
+    width: 20px;
+    height: 20px;
+    color: black;
+}
+.fa-circle-trash{
+    width: 200px;
+    z-index: 1;
 }
 .experiencias-img{
-    max-height: 100px;
-    width: 110px;
+    width: 100px;
+   margin-right: 15px;
+   margin-top: 30px;
+}
+.experiencias-img-t{
+    width: 70px;
     margin-top: 10px;
-}    
-.fecha{
-    font-size: 13px;
+   margin-right: 28px;
+
+}
+.btn-add img{
+    width: 20px;
+}
+.btn-del img{
+    width: 20px;
 }
 .experiencias{
-    padding: 40px;
-   border-bottom: 0px 0px 0px 0px #ccc;
-   
+    padding: 10px;
 }
-.experiencias button{
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-
-    background: none;
-    border: none;
-    margin-top: -140px;
-    margin-right: -40px;
+#titulo-experiencia{
+    padding: 7px;
 }
-
-.experiencias button:hover{
-filter: none;
--webkit-filter: grayscale(0%);
+.btn-edit{
+    float: right;
 }
 .card-proyectos{
     margin: 20px;
@@ -177,51 +165,25 @@ filter: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: row;
 }
-
-/*DARLE ESTILOS A EDUCACION*/
-#editar_educacion {
-    float: right;
-    width: 30px;
-    height: 30px;
+li{
+    list-style: none;
+    margin: 0 ;
+    min-width: 100%;
+    max-width: 1000px;
+}
+ul {
     margin: 0 auto;
-    margin-bottom: 15px;
-    background: none;
-    border: none;
-}
-#editar_educacion img{
-    margin-top: 1px;
-}
-.card-header{
-    background: rgb(248, 248, 248) !important;
-    height: 50px;
-    text-align: center;
-    line-height: 35px;
-    text-transform: uppercase;
+    padding: 0;
+    min-width: 90%;
+    
 }
 .card-proyectos{
-    max-width: 500px;
-    min-width: 500px;
-}
-.card-proyectos img{
     object-fit: cover;
-   
+    float: left;
+    min-width: 200px;
 }
-
-@keyframes load{
-    0%{
-      box-shadow: 0 0 #9c5d30 inset;
-    }
-    100%{
-      box-shadow: 0 -70px #422412 inset;
-    }
-  }
-  .loader{
-    transform: perspective(140px) rotateX(-45deg);
-    width: 32px;
-    height: 72px;
-    position: relative;
-    border: 1px solid rgb(0, 0, 0);
-    animation: load 3s linear infinite;
-    float:right
-  }
+.card-proyectos{
+    object-fit: cover;
+}

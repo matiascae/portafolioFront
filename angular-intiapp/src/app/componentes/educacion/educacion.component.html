@@ -1,0 +1,18 @@
+   <!--Educacion-->
+   <div class="card mat-card" id="second-card">
+    <h5>Educacion</h5>
+    <!--Primer educacion-->
+  <ul>
+
+    <li *ngFor="let educacion of educacionList">
+      <div class="card mb-3" style="max-width: 100%">
+        <div class="card-header" style="float:right ;">SECUNDARIO<a href="#" class="btn-right"><i class="fa fa-pen"></i></a>  </div>
+        <div class="card-body text-dark">
+        <h5 class="card-title">{{educacion.school}}</h5>
+        <p class="card-text">{{educacion.title}}</p> 
+      </div>
+    </div>
+  </li>
+
+</ul>
+  </div>

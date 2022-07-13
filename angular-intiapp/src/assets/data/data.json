@@ -1,0 +1,80 @@
+{
+    "name":"Matias Ezequiel Fontenla",
+    "position":"Front-End Developper",
+    "company":{
+        "name": "Simbel eCommerce",
+        "url":"simbel.com.ar"
+    },
+    "ubication":"Buenos Aires (Argentina)",
+    "about": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam magnam possimus repellendus, architecto amet harum quam facere modi quasi omnis vel, molestias illum, sed soluta fuga id quae eligendi dolor?",
+    "education":[{
+        "school":"Instituto Buenos Aires",
+        "title":"Ciencias Sociales - Completo"
+    },
+       
+    {
+        "school":"Graduarte Ya",
+        "title":"Programacion Web"
+     
+
+        },
+    {
+        "school":"SE PROGRAMAR",
+        "title":"Primera parte del Argentina Programa, orientado a la logica de la programacion"
+
+            },
+    {
+        "school":"Yo Programo",
+        "title":"En curso"
+
+    }],
+    "experiencias":[{
+        "empresa":"Simbel eCommerce",
+        "functions":"Soporte/Help-desk - Front-end Jr. / eCommerce",
+        "fecha":"11-21 - actualidad"
+    },
+       
+    {
+        "empresa":"Treinta y ocho Semanas",
+        "functions":"Diseño web - Wordpress / Ajuares y ropa de bebe ",
+        "fecha":"11-21 - actualidad"
+        },
+    {
+        "empresa":"Sur Inmobiliaria",
+        "functions":"Diseño web / Inmobiliaria",
+        "fecha":"11-21 - actualidad"
+
+            },
+    {
+        "empresa":"El Futuro Pensado Por La Unidad",
+        "functions":"Diseño web - Wordpress / Mutual",
+        "fecha":"11-21 - actualidad"
+
+    }],
+    "proyectos":[{
+        "nombre":"APV Pacientes de veterinaria",
+        "descripcion":"Adminitrador de pacientes de veterinaria",
+        "img":"../../../assets/img/APV_d.png"
+    },
+       
+    {
+        "nombre":"GEMERADOR DE QR",
+        "descripcion":"Generador de Q",
+        "img":"../../../assets/img/qr_d.png"
+        },
+    {
+        "nombre":"Calculadora",
+        "descripcion":"Calculadora manejada mediante mouse",
+        "img":"../../../assets/img/calculadora_d.png"
+
+            },
+    {
+    "nombre":"dsadsadsa",
+    "descripcion":"Calculadora manejada mediante mouse",
+    "img":"../../../assets/img/calculadora_d.png"
+        
+    }]
+    
+
+
+}

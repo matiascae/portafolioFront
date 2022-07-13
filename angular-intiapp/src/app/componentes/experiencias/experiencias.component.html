@@ -1,0 +1,26 @@
+<!--TERCERA CARTA-->
+
+ <div class="card mat-card" id="third-card">
+    
+    <h5 id="titulo-experiencia">Experiencias</h5>
+    <ul> 
+      <li *ngFor="let experiencia of experienciaList" >
+    <div class="experiencias">
+      <div class="float-end edit-borrar">
+        <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>   
+        <div class="btn-edit"><a href="#" class="btn-add"><img src="../assets/img/plus-solid.svg" alt=""></a></div>   
+        <div class="btn-edit"><a href="#" class="btn-del"><img src="../assets/img/trash-can-solid.svg" alt=""></a></div>    
+    </div>
+    <img class="experiencias-img float-end" [src]="experiencia.img" alt="">
+    <h3>{{experiencia.empresa}}</h3>
+    <p>{{experiencia.functions}}</p>
+    <p class="fecha"><i>11/21-Actualidad</i></p>
+    
+    
+
+  </div>
+</li>
+</ul>
+<hr>
+
+</div>

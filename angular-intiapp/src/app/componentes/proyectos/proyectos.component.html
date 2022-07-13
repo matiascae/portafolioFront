@@ -1,0 +1,19 @@
+   <!--Proyectos-->
+   <div class="card mat-card" id="third-card">
+    <h5 id="titulo-experiencia">Proyectos</h5>
+    <div class="proyectos-box">
+    <ul>
+      <li *ngFor="let proyecto of proyectoList" class="proyectos-li">
+        <div class="card card-proyectos">
+          <img class="card-img-top" [src]="proyecto.img" alt="Card image cap">
+          <div class="card-body ">
+            <h5 class="card-title ">{{proyecto.nombre}}</h5>
+            <p class="card-text ">{{proyecto.descripcion}}</p>
+            <a href="https://earnest-gaufre-28b48f.netlify.app/" target="_blank" class="btn btn-primary  ">Go somewhere</a>
+          </div>
+        </div>
+      </li>
+    </ul> 
+   
+  </div>
+ 
